@@ -1,0 +1,15 @@
+name: gramio
+hparams:
+  hidden_size: 64
+  gcn_layers: 1
+  psd_layers: 1
+  cro_layers: 2
+  cmd_sample_ratio: 1
+  tra_sample_ratio: 1
+  dropout: 0.1
+  k: 3
+  full_cadj: true
+  sampling: partition # partition, random, empty, half, no_part
+regs:
+  y1: 0.1 # Cross Loss
+  y2: 0.05 # Contastive Loss

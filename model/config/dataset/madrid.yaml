@@ -1,0 +1,24 @@
+#### Dataset params ###########################################################
+name: madrid
+
+# spatial shift
+spatial_shift: True
+order: 0
+node_features: CC
+include_exog: True
+test_months: [3, 6, 9, 12]
+years: [2022, 2023]
+
+# Point
+mode: road
+exog: temp
+p_fault: 0.
+p_noise: 0.5
+
+splitting:
+  val_len: 0.1
+  test_len: 0.2
+connectivity:
+  method: precomputed
+  threshold: 0.1
+  include_self: False

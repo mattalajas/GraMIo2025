@@ -1,0 +1,50 @@
+defaults:
+  - _self_
+  - logger: null
+  - dataset: metrla
+  - model: gramio
+
+#### Experiment params ########################################################
+hydra:
+  run:
+    dir: logs/${dataset.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: logs/${now:%Y-%m-%d-%H-%M-%S}
+    subdir: ${dataset.name}/${hydra.job.num}
+
+tags:
+  - ${dataset.name}
+
+# Replace with the last ckpt file to resume training
+call_path: null
+workers: 0
+num_threads: 1  # limit the number of pytorch threads spawn
+
+logger: tensorboard
+
+#### Windowing params #########################################################
+window: 24
+stride: 1
+
+#### Training params ##########################################################
+epochs: 200
+patience: 50
+batch_size: 64
+grad_clip_val: 1
+grad_clip_alg: 'norm'
+scaler: 'StandardScalerSplit'
+scale_target: True
+device: [1]
+num_groups: 4
+
+optimizer:
+  name: Adam
+  hparams:
+    lr: 0.0001
+    weight_decay: 0.
+
+lr_scheduler:
+  name: CosineAnnealingLR
+  hparams:
+      eta_min: 0.0001
+      T_max: ${ epochs }
