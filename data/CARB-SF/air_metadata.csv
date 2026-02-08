@@ -1,0 +1,16 @@
+basin,cnty_abbr,name,prelim_yn,county_name,site,state,latitude,longitude,aqs_id,qa_id,district,met_id,elevation,address,city,zip_code,no22018obs 
+SFB,ALA,Berkeley-Aquatic Park,N,Alameda,3828,CA,37.86473,-122.3027,60010013,7436,BA ,,3,Aquatic Park,Berkeley,94710,8253
+SFB,CC,Concord-2956-A Treat Blvd,N,Contra Costa,2831,CA,37.936,-122.0262,60130002,7448,BA,CCR01,28,2956-A Treat Blvd,Concord,94518,8228
+SFB,ALA,Livermore-793 Rincon Avenue,N,Alameda,3490,CA,37.6875,-121.7842,60010007,60344,BA,LVK01,138,793 Rincon Avenue,Livermore,94550,8343
+SFB,ALA,Oakland-9925 International Blvd,N,Alameda,3247,CA,37.74306,-122.16994,60010009,60347,BA,OAK05,11,9925 International Blvd,Oakland,94607,8354
+SFB,ALA,Oakland-Laney College,N,Alameda,3803,CA,37.79362,-122.26338,60010012,60351,BA,,4,Laney College Eighth St parking lot Aisle J,Oakland,94607,8277
+SFB,ALA,Oakland-West,N,Alameda,3742,CA,37.8148,-122.28236,60010011,60349,BA,,4,1100 21st Street,Oakland,94607,8317
+SFB,ALA,Pleasanton-Owens Ct,N,Alameda,3840,CA,37.70122,-121.90302,60010015,60353,BA ,,101,Owens Ct.,Pleasanton,94588,6306
+SFB,SM,Redwood City,N,San Mateo,2125,CA,37.48293,-122.20348,60811001,41541,BA,RWD01,4,897 Barron Avenue,Redwood City,94063,8311
+SFB,SF,San Francisco-Arkansas Street,N,San Francisco,2373,CA,37.76595,-122.39902,60750005,90306,BA,SFO02,5,10 Arkansas Street,San Francisco,94107,8295
+SFB,SCL,San Jose-Jackson Street,N,Santa Clara,3661,CA,37.348488,-121.894936,60850005,43383,BA,,27,156B Jackson Street,San Jose ,95112,7892
+SFB,SCL,San Jose-Knox Avenue,N,Santa Clara,3810,CA,37.338202,-121.849892,60850006,43385,BA,,31,1007 Knox Avenue,San Jose ,95122,8355
+SFB,CC,San Pablo-Rumrill Blvd,N,Contra Costa,3668,CA,37.9604,-122.35685,60131004,7447,BA,,11,1865D Rumrill Blvd,San Pablo,94806,8331
+SFB,MRN,San Rafael,N,Marin,2622,CA,37.9723,-122.52011,60410001,21451,BA,SRF01,3,534 4th Street,San Rafael,94901,8323
+SFB,CC,San Ramon-9885 Alcosta Bl,Y,Contra Costa,3782,CA,37.74367,-121.93419,60132007,60341,BA,,120,9885 Alcosta Blvd,San Ramon,94583,8361
+SFB,SOL,Vallejo-304 Tuolumne Street,N,Solano,2410,CA,38.10251,-122.238,60950004,48879,BA,VAL01,6,304 Tuolumne Street,Vallejo,94590,7722

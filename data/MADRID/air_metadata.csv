@@ -1,0 +1,24 @@
+CODIGO,name,place,DIRECCION,LONGITUD_ETRS89,LATITUD_ETRS89,ALTITUD,COD_TIPO,NOM_TIPO,COD_VIA,VIA_CLASE,VIA_PAR,VIA_NOMBRE,Fecha alta,longitude,latitude
+28079004,4,Plaza de España,Plaza de España,"3°42'43.91""O","40°25'25.98""N",637,UT,Urbana tráfico,273600,PLAZA,DE,ESPAÑA,12/1/1998,-3.7122567,40.4238823
+28079008,8,Escuelas Aguirre,Entre C/ Alcalá y C/ O’ Donell ,"3°40'56.22""O","40°25'17.63""N",672,UT,Urbana tráfico,18900,CALLE,DE,ALCALA,12/1/1998,-3.6823158,40.4215533
+28079011,11,Ramón y Cajal,Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara,"3°40'38.50""O","40°27'5.29""N",709,UT,Urbana tráfico,610450,CALLE,DEL,PRINCIPE DE VERGARA,12/1/1998,-3.6773491,40.4514734
+28079016,16,Arturo Soria,C/ Arturo Soria  esq. C/  Vizconde de los Asilos ,"3°38'21.17""O","40°26'24.20""N",695,UF,Urbana fondo,798700,CALLE,DEL,VIZCONDE DE LOS ASILOS,12/1/1998,-3.6392422,40.4400457
+28079017,17,Villaverde,C/ Juan Peñalver,"3°42'47.89""O","40°20'49.74""N",601,UF,Urbana fondo,417200,CALLE,DE,JUAN PEÑALVER,12/1/1998,-3.7133167,40.347147
+28079018,18,Farolillo,C/ Farolillo - C/ Ervigio,"3°43'54.61""O","40°23'41.22""N",625,UF,Urbana fondo,1903,CALLE,DEL,FAROLILLO,3/31/2001,-3.7318356,40.3947825
+28079024,24,Casa de Campo,Casa de Campo  (Terminal del Teleférico),"3°44'50.44""O","40°25'9.69""N",645,S,Suburbana,905219,CARRETERA,DEL,TELEFERICO,12/1/1998,-3.7473445,40.4193577
+28079027,27,Barajas Pueblo,"C/ Júpiter, 21","3°34'48.10""O","40°28'36.93""N",619,UF,Urbana fondo,425700,CALLE,DE,JUPITER,12/31/2002,-3.5800258,40.4769179
+28079035,35,Plaza del Carmen,Plaza del Carmen esq. Tres Cruces,"3°42'11.40""O","40°25'9.15""N",660,UF,Urbana fondo,145800,PLAZA,DEL,CARMEN,11/1/1999,-3.7031662,40.4192091
+28079036,36,Moratalaz,Avda. Moratalaz  esq. Camino de los Vinateros,"3°38'43.02""O","40°24'28.64""N",671,UT,Urbana tráfico,522000,AVENIDA,DE,MORATALAZ,12/1/1998,-3.6453104,40.4079517
+28079038,38,Cuatro Caminos,Avda. Pablo Iglesias esq. C/ Marqués de Lema,"3°42'25.64""O","40°26'43.97""N",699,UT,Urbana tráfico,554550,AVENIDA,DE,PABLO IGLESIAS,11/1/1998,-3.7071303,40.4455439
+28079039,39,Barrio del Pilar,Avda. Betanzos esq. C/  Monforte de Lemos ,"3°42'41.53""O","40°28'41.64""N",675,UT,Urbana tráfico,514425,AVENIDA,DE,MONFORTE DE LEMOS,5/1/1998,-3.7115364,40.4782322
+28079040,40,Vallecas,C/ Arroyo del Olivar  esq. C/  Río Grande. ,"3°39'5.50""O","40°23'17.33""N",678,UF,Urbana fondo,75500,CALLE,DEL,ARROYO DEL OLIVAR,9/30/1999,-3.6515286,40.3881478
+28079047,47,Méndez Álvaro,C/ Juan de Mariana / Plaza Amanecer Méndez Álvaro,"3°41'12.57""O","40°23'53.17""N",600,UF,Urbana fondo,414800,CALLE,DE,JUAN DE MARIANA,12/21/2009,-3.6868138,40.3980991
+28079048,48,Castellana,C/ José Gutiérrez Abascal,"3°41'25.34""O","40°26'23.61""N",678,UT,Urbana tráfico,401400,CALLE,DE,JOSE GUTIERREZ ABASCAL,2/1/2010,-3.6903729,40.4398904
+28079049,49,Parque del Retiro,Paseo Venezuela- Palacio de Velázquez,3º 40' 57''O,40º 24' 52''N,658,UF,Urbana fondo,905011,PASEO,DE,VENEZUELA,1/1/2010,-3.6824999,40.4144444
+28079050,50,Plaza Castilla,Plaza Castilla (Canal),"3°41'19.48""O","40°27'56.10""N",730,UT,Urbana tráfico,154500,PLAZA,DE,CASTILLA,2/1/2010,-3.6887449,40.4655841
+28079054,54,Ensanche de Vallecas,Avda. La Gavia / Avda. Las Suertes,"3°36'43.70""O","40°22'22.84""N",628,UF,Urbana fondo,31000516,AVENIDA,DE,LA GAVIA,12/11/2009,-3.6121394,40.3730118
+28079055,55,Urb. Embajada,C/ Riaño (Barajas) ,"3°34'50.03""O","40°27'44.51""N",614,UF,Urbana fondo,639250,CALLE,DE,RIAÑO,1/20/2010,-3.5805649,40.4623628
+28079056,56,Plaza Elíptica,Plaza Elíptica - Avda. Oporto,"3°43'7.54""O","40°23'6.10""N",605,UT,Urbana tráfico,293200,PLAZA,,ELIPTICA,1/18/2010,-3.7187679,40.3850336
+28079057,57,Sanchinarro,C/ Princesa de Éboli esq. C/ María Tudor,"3°39'37.86""O","40°29'39.12""N",700,UF,Urbana fondo,31000002,CALLE,DE LA,PRINCESA DE EBOLI,11/23/2009,-3.6605173,40.4942012
+28079059,59,Juan Carlos I,Parque Juan Carlos I (frente oficinas mantenimiento),3°36'32.51''O,40°27'54.52''N,660,S,Suburbana,1111,,,,12/14/2009,-3.609031,40.465144
+28079060,60,Tres Olivos,Plaza Tres Olivos ,"3°41'23.03""O","40°30'1.97""N",709,UF,Urbana fondo,1427,PLAZA,DE LOS,TRES OLIVOS,2/8/2010,-3.6897308,40.5005477

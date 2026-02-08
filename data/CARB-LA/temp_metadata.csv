@@ -1,0 +1,36 @@
+basin,cnty_abbr,name,prelim_yn,county_name,site,state,latitude,longitude,aqs_id,qa_id,district,met_id,elevation,address,city,zip_code,otemp2018obs 
+MD,LA,West Hills-T,N,Los Angeles,6178,CA,34.2042,-118.6447,,,SC,219,282,,West Hills,,8617 
+SC,LA,Arleta-T,N,Los Angeles,6177,CA,34.256100000000004,-118.3828,,,SC,216,299,,Arleta,,8679 
+SC,LA,Azusa-T,N,Los Angeles,2484,CA,34.136479999999999,-117.92392,060370002,70060,SC,AZU01,189,803 North Loren Avenue,Azusa,91702,8752 
+SC,LA,Beverly Hills-T,N,Los Angeles,3362,CA,34.125,-118.42,,,SC,RBHL,348,RAWS Station CA41E68E,Los Angeles,90210,8754 
+SC,LA,Burbank-Glendale-Pasadena Airport-T,N,Los Angeles,2582,CA,34.200000000000003,-118.34999999999999,,,SC,KBUR,214,,Burbank,91505,9889 
+SC,LA,Camp 9-T,N,Los Angeles,3359,CA,34.401944,-118.401944,,,SC,RCP9,569,RAWS Station CA41A584,Canyon Country,91387,8760 
+SC,LA,Chatsworth-T,N,Los Angeles,6176,CA,34.291400000000003,-118.58669999999999,,,SC,215,468,,Chatsworth,,8493 
+SC,LA,Claremont-T,N,Los Angeles,3466,CA,34.136944,-117.70694399999999,,,SC,RCLR,497,RAWS Station CA420272,Claremont,91711,8758 
+SC,LA,Compton-700 North Bullis Road-T,N,Los Angeles,3743,CA,33.901445000000002,-118.204989,060371302,70112,SC,,22,700 North Bullis Road,Compton                         ,90221,8747 
+SC,LA,Del Valle-T,N,Los Angeles,3544,CA,34.431111000000001,-118.682778,,,SC,DLV01,348,RAWS Station CA42249E,Castaic,91384,8758 
+SC,LA,El Monte-T,N,Los Angeles,2608,CA,34.083333000000003,-118.033333,,,SC,KEMT,88,,El Monte,91731,4290 
+SC,LA,Glendora-Laurel-T,N,Los Angeles,2849,CA,34.144370000000002,-117.85038,060370016,70591,SC,GLD03,279,840 Laurel,Glendora                        ,91741,8744 
+SC,LA,Hawthorne Municipal Airport-T,N,Los Angeles,5307,CA,33.9236,-118.33199999999999,,,SC,KHHR,17,,Hawthorne,90250,10931 
+SC,LA,La Verne-Brackett Field-T,N,Los Angeles,2809,CA,34.083333000000003,-117.766666,,,SC,KPOC,296,,Pomona,91768,4810 
+SC,LA,Long Beach #2-T,N,Los Angeles,5816,CA,33.796999999999997,-118.09399999999999,,,SC,,6,,Long Beach,90815,8251 
+SC,LA,Long Beach Airport-T,N,Los Angeles,2322,CA,33.816667000000002,-118.15000000000001,,,SC,KLGB,11,Address Not Known,Long Beach,90808,11969 
+SC,LA,Los Angeles-International Airport-T,N,Los Angeles,2017,CA,33.933332999999998,-118.40000000000001,,,SC,KLAX,34,,Los Angeles,90045,11711 
+SC,LA,Los Angeles-North Main Street-T,N,Los Angeles,2899,CA,34.06653,-118.22676,060371103,70087,SC,LAX06,92,1630 North Main Street,Los Angeles                     ,90012,8729 
+SC,LA,Los Angeles - USC Campus Downtown-T,N,Los Angeles,5297,CA,34.0167,-118.283,,,SC,KCQT,57,,Los Angeles,90007,10718 
+SC,LA,Malibu Hills-T,N,Los Angeles,3364,CA,34.058056000000001,-118.633056,,,SC,RMLB,177,RAWS Station CA4173EC,Malibu,90265,8690 
+SC,LA,Monrovia-T,N,Los Angeles,5803,CA,34.14528,-117.9847,,,SC,,177,,Monrovia,91016,8695 
+SC,LA,Pasadena-S Wilson Avenue-T,N,Los Angeles,2160,CA,34.132649999999998,-118.12714,060372005,70088,SC,PAS04,227,752 South Wilson Avenue,Pasadena                        ,91702,8323 
+SC,LA,Pico Rivera-4144 San Gabriel-T,N,Los Angeles,3693,CA,34.010289999999998,-118.0685,060371602,70185,SC,,58,4144 San Gabriel River Parkway,Pico Rivera,90660,8751 
+SC,LA,Pomona #2-T,N,Los Angeles,5740,CA,34.058,-117.812,,,SC,,221,,Pomona,91768,8688 
+SC,LA,Reseda-T,N,Los Angeles,2420,CA,34.199199999999998,-118.53274999999999,060371201,70074,SC,RES01,225,18330 Gault Street,Los Angeles,91335,8303 
+SC,LA,Santa Clarita-T,N,Los Angeles,7220,CA,34.426900000000003,-118.517,,,SC,,434,,Santa Clarita,91350,8709 
+SC,LA,Santa Fe Dam-T,N,Los Angeles,3363,CA,34.121110999999999,-117.946111,,,SC,RSAF,155,RAWS Station CA4A80C0,Irwindale,91706,8758 
+SC,LA,Santa Monica-T,N,Los Angeles,5754,CA,34.043999999999997,-118.476,,,SC,,108,,Santa Monica,90403,8612 
+SC,LA,Santa Monica Municipal Airport-T,N,Los Angeles,2059,CA,34,-118.45,,,SC,KSMO,9,,Los Angeles,90291,10694 
+SC,LA,Saugus-T,N,Los Angeles,3358,CA,34.424999999999997,-118.52500000000001,,,SC,RSAU,392,RAWS Station CA418368,Santa Clarita,91350,8759 
+SC,LA,Tanbark-T,N,Los Angeles,3361,CA,34.166944000000001,-117.766944,,,SC,RTAN,558,RAWS Station 324837FA,Valyermo,93563,8759 
+SC,LA,Van Nuys Airport-T,N,Los Angeles,5387,CA,34.212499999999999,-118.491,,,SC,KVNY,239,,Los Angeles,91406,9972 
+SC,LA,West Los Angeles-VA Hospital-T,N,Los Angeles,2494,CA,34.051090000000002,-118.4564,060370113,70091,SC,WSL03,92,VA Hospital,Los Angeles,90025,8729 
+SC,LA,Whiteman Airport-T,N,Los Angeles,5388,CA,34.25,-118.40000000000001,,,SC,KWHP,284,,Los Angeles,91352,4411 
+SC,LA,Zamperini Field Airport-T,N,Los Angeles,5378,CA,33.799999999999997,-118.333,,,SC,KTOA,29,,Torrance,90505,5365
