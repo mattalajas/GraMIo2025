@@ -10,7 +10,6 @@ synth_params:
   e_sigma_noise: .2
   e_norm: none
   cor_rat: 0.5
-  trim_thresh: 0.0
   size: small
   name: CrossGPVAR
 

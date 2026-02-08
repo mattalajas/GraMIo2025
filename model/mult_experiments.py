@@ -12,7 +12,6 @@ if __name__ == '__main__':
     logger.info(res)
     
     shift = res.pop('spatial')
-    eval_setting = res.pop('eval_setting')
     node_features = res.pop('node_f')
     base_dir = os.path.join("res")
 

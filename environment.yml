@@ -1,4 +1,4 @@
-name: geode
+name: gramio
 channels:
   - defaults
   - conda-forge

@@ -15,7 +15,7 @@ from utils import (AirCross, CrossSpatioTemporalDataset, StandardScalerSplit, Sp
 def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connectivity=None, 
                 spatial_shift=False, order=0, node_features='CC', test_months=[5],
                 years = [], include_exog=False, exog='traffic', synth_params=None):
-    if dataset_name == 'syntheticCross':
+    if dataset_name == 'synthetic':
         return add_missing_sensors_cross(CrossGPVARDataset(include_exog=include_exog, **synth_params),
                                   p_fault=p_fault,
                                   p_noise=p_noise,
@@ -26,8 +26,8 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                   spatial_shift=spatial_shift,
                                   order=order,
                                   node_features=node_features)
-    if dataset_name == 'aircross':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossSF', test_months=test_months,
+    if dataset_name == 'carb_sf':
+        return add_missing_sensors_cross(AirCross(root='data/CARB-SF', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -38,8 +38,8 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                         spatial_shift=spatial_shift,
                                         order=order,
                                         node_features=node_features)
-    if dataset_name == 'aircross_la':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossLA', test_months=test_months,
+    if dataset_name == 'carb_la':
+        return add_missing_sensors_cross(AirCross(root='data/CARB-LA', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -50,8 +50,8 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                         spatial_shift=spatial_shift,
                                         order=order,
                                         node_features=node_features)
-    if dataset_name == 'aircross_sp':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossSpain', test_months=test_months,
+    if dataset_name == 'madrid':
+        return add_missing_sensors_cross(AirCross(root='data/MADRID', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -157,11 +157,11 @@ def load_model_and_infer(config_path: str, checkpoint_path: str):
 
     y_hat, y_true, mask = (output['y_hat'], output['y'], output.get('eval_mask', None))
     res = test_wise_eval(y_hat, y_true, mask, 
-                            known_nodes=[i for i in range(adj.shape[0]) if i not in masked_sensors],
-                            adj=adj,
-                            mode='test',
-                            num_groups=cfg.num_groups,
-                            features=y_true)
+                        known_nodes=[i for i in range(adj.shape[0]) if i not in masked_sensors],
+                        adj=adj,
+                        mode='test',
+                        num_groups=cfg.num_groups,
+                        features=y_true)
     return res
 
 if __name__ == '__main__':

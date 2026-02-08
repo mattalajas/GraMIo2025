@@ -38,7 +38,7 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                   order=order,
                                   node_features=node_features)
     if dataset_name == 'carb_sf':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossSF', test_months=test_months,
+        return add_missing_sensors_cross(AirCross(root='data/CARB-SF', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -50,7 +50,7 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                         order=order,
                                         node_features=node_features)
     if dataset_name == 'carb_la':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossLA', test_months=test_months,
+        return add_missing_sensors_cross(AirCross(root='data/CARB-LA', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -62,7 +62,7 @@ def get_dataset(dataset_name: str, p_fault=0., p_noise=0., masked_s=None, connec
                                         order=order,
                                         node_features=node_features)
     if dataset_name == 'madrid':
-        return add_missing_sensors_cross(AirCross(root='data/AirCrossSpain', test_months=test_months,
+        return add_missing_sensors_cross(AirCross(root='data/MADRID', test_months=test_months,
                                                   years=years, include_exog=include_exog, exog=exog),
                                         p_fault=p_fault,
                                         p_noise=p_noise,
@@ -243,11 +243,11 @@ def run_imputation(cfg: DictConfig):
                            output.get('eval_mask', None))
     
     res = test_wise_eval(y_hat, y_true, mask, 
-                            known_nodes=[i for i in range(adj.shape[0]) if i not in masked_sensors],
-                            adj=adj,
-                            mode='test',
-                            num_groups=cfg.num_groups,
-                            features=y_true)
+                        known_nodes=[i for i in range(dataset.air_max_nodes) if i not in masked_sensors],
+                        adj=adj[:dataset.air_max_nodes, :dataset.air_max_nodes],
+                        mode='test',
+                        num_groups=cfg.num_groups,
+                        features=y_true)
 
     output = trainer.predict(imputer, dataloaders=dm.val_dataloader())
     output = imputer.collate_prediction_outputs(output)
@@ -256,9 +256,9 @@ def run_imputation(cfg: DictConfig):
                            output.get('eval_mask', None))
     
     res.update(test_wise_eval(y_hat, y_true, mask, 
-                known_nodes=[i for i in range(adj.shape[0]) if i not in masked_sensors],
-                adj=adj, mode='val', num_groups=cfg.num_groups,
-                features=y_true))
+                known_nodes=[i for i in range(dataset.air_max_nodes) if i not in masked_sensors],
+                adj=adj[:dataset.air_max_nodes, :dataset.air_max_nodes], mode='val', 
+                num_groups=cfg.num_groups, features=y_true))
     
     res.update(
         dict(model=cfg.model.name,

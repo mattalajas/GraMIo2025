@@ -239,8 +239,8 @@ def test_wise_eval(y_hat, y_true, mask, known_nodes, adj, mode, num_groups=4, al
                     'KHR': khr_gr}
         
     res = {f'{mode}_mae': numpy_metrics.mae(y_hat, y_true, mask),
-               f'{mode}_mre': numpy_metrics.mre(y_hat, y_true, mask),
-               f'{mode}_rmse': numpy_metrics.rmse(y_hat, y_true, mask)}
+            f'{mode}_mre': numpy_metrics.mre(y_hat, y_true, mask),
+            f'{mode}_rmse': numpy_metrics.rmse(y_hat, y_true, mask)}
 
     for key, groups in group_dict.items():
         results = {'mae':[], 'mre':[], 'rmse':[]}
