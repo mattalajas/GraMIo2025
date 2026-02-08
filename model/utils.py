@@ -232,7 +232,7 @@ def test_wise_eval(y_hat, y_true, mask, known_nodes, adj, mode, num_groups=4, al
         group_dict = {'LPS': lps_gr,
                     'CC': cls_gr,
                     'GD': khr_gr,
-                    'AGF': agg_gr}
+                    'AFG': agg_gr}
     else:
         group_dict = {'LPS': lps_gr,
                     'CC': cls_gr,
